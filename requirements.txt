@@ -1,8 +1,33 @@
+# --- Core App Dependencies ---
 streamlit
+numpy
+pandas
+joblib
+requests
+
+# --- Google Generative AI (Gemini) ---
 google-generativeai
 google-auth
 google-auth-oauthlib
-pandas
-numpy
-tensorflow
-joblib
+
+# --- Speech Recognition / Audio ---
+openai-whisper
+soundfile
+torch
+torchaudio
+pydub
+
+# --- NLP and Summarization ---
+transformers
+sentencepiece
+nltk
+spacy
+
+# --- Summarization / Quiz Generation helpers ---
+tqdm
+scikit-learn
+
+# --- Misc / Utility ---
+protobuf
+typing-extensions
+jinja2
