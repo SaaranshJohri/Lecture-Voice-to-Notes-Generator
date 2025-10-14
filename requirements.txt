@@ -1,5 +1,7 @@
 # --- Python Runtime ---
-# Ensure Streamlit uses Python 3.11 (add runtime.txt with "python-3.11" in root too)
+# Ensure Streamlit uses Python 3.11
+# Add a file named runtime.txt in the root directory with:
+# python-3.11
 
 # --- Core App Dependencies ---
 streamlit==1.39.0
@@ -18,23 +20,24 @@ openai-whisper==20231117
 soundfile
 torch==2.3.1
 torchaudio==2.3.1
+torchvision==0.18.1
 pydub
 
 # --- NLP and Summarization ---
 transformers==4.44.2
 sentencepiece==0.2.0
 nltk==3.9
+spacy==3.7.2
 blis==0.7.9
 murmurhash==1.0.10
 thinc==8.2.5
-spacy==3.7.1
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
 
 # --- Summarization / Quiz Generation helpers ---
 tqdm==4.66.5
 scikit-learn==1.5.2
+keybert==0.8.4
 
 # --- Misc / Utility ---
 protobuf==4.25.3
-typing-extensions
+typing-extensions==4.14.0
 jinja2==3.1.4
