@@ -18,7 +18,7 @@ st.set_page_config(page_title="Lecture Voice-to-Notes Generator", layout="wide")
 st.title("🎙️ Lecture Voice-to-Notes Generator")
 
 # ✅ Replace with your own Gemini API key here
-GEMINI_API_KEY = "AIzaSyAP2EEL36yJcZF54-XsEgQUiJQkNJnrgVY"
+GEMINI_API_KEY = "AIzaSyAdHro1ZSIcRDFdoyiovowAoTpXlF6s2So"
 
 # Configure Gemini once
 genai.configure(api_key=GEMINI_API_KEY)
@@ -144,3 +144,4 @@ with tab2:
     for chat in st.session_state.chat_history:
         st.chat_message("user").markdown(chat["user"])
         st.chat_message("assistant").markdown(chat["bot"])
+
