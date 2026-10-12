@@ -14,7 +14,7 @@ from quiz_generator import QuizGenerator
 # -----------------------------
 # CONFIGURATION
 # -----------------------------
-st.set_page_config(page_title="Lecture Voice-to-Notes Generator", layout="wide")
+st.set_page_config(page_title="Lecture Voice-2-Notes Generator", layout="wide")
 st.title("🎙️ Lecture Voice-to-Notes Generator")
 
 # ✅ Replace with your own Gemini API key here
