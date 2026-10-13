@@ -24,7 +24,7 @@ api_KEY = "AIzaSyAdHro1ZSIcRDFdoyiovowAoTpXlF6s2So"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Create tabs
-tab1, tab2 = st.tabs(["🧠 Lecture-to-Notes Generator", "💬 AI Doubt Solver"])
+tab1, tab2 = st.tabs(["🧠 Lecture-to-Notes Generator", "Solver"])
 
 # -----------------------------
 # TAB 1: Lecture to Notes
