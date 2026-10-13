@@ -18,7 +18,7 @@ st.set_page_config(page_title="Lecture Voice-to-Notes Generator", layout="wide")
 st.title("🎙️ Lecture Voice-to-Notes Generator")
 
 # ✅ Replace with your own Gemini API key here
-GEMINI_API_KEY = "AIzaSyAdHro1ZSIcRDFdoyiovowAoTpXlF6s2So"
+GEMINI_KEY = "AIzaSyAdHro1ZSIcRDFdoyiovowAoTpXlF6s2So"
 
 # Configure Gemini once
 genai.configure(api_key=GEMINI_API_KEY)
