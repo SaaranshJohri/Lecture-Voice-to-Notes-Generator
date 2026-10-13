@@ -1,7 +1,7 @@
-```yaml
+
 name: MergeMind Conflict Check
 
-on:
+"on":
   pull_request_target:
     types: [opened, synchronize, reopened]
   workflow_dispatch:
@@ -127,4 +127,3 @@ jobs:
             --base "origin/${BASE_BRANCH}" \
             --head "origin/${HEAD_BRANCH}" \
             --fail-on-conflict
-```
