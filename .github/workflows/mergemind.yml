@@ -43,10 +43,14 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install MergeMind
+      - name: Install latest MergeMind
         run: |
           python -m pip install --upgrade pip
-          python -m pip install "git+https://github.com/SaaranshJohri/Autonomous-Multi-Agent-Merge-Auditor-Execution-Sequence-Verifier.git"
+          python -m pip install --no-cache-dir --force-reinstall \
+            "git+https://github.com/SaaranshJohri/Autonomous-Multi-Agent-Merge-Auditor-Execution-Sequence-Verifier.git@main"
+
+          python -m pip show mergemind
+          mergemind --help
 
       - name: Prepare pull request references
         if: github.event_name == 'pull_request_target'
